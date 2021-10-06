@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Blog de Viagens</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-custom navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          
+            <img src="pngtree-travel-logo-holidays-tourism-business-trip-company-logo-design-vector-illustration-png-image_1808446-removebg-preview.png" alt="">
+            
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#mainCarousel">Página Inicial</a>
+              </li>
+    
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.booking.com/index.pt-br.html?label=gen173nr-1DCAEoggI46AdIM1gEaCCIAQGYAS24ARjIAQzYAQPoAQH4AQOIAgGoAgS4Au340YoGwAIB0gIkOGE4ZjYyYTUtNDEyNC00NzExLWI5ZmYtNDgxMjkxYzFhNGYx2AIE4AIB;sid=fe0c06be2dd2cf5ab4510ae7e15ca66e;keep_landing=1&sb_price_type=total&">Hotéis</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.localiza.com/brasil/pt-br?gclid=EAIaIQobChMIhu6VzLek8wIViZ6zCh2iEQxREAAYASAAEgIZoPD_BwE">Aluguel de carros</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.decolar.com/?adjust_adgroup=65462576847&adjust_campaign=1624198513&adjust_t=esobv7_ffxd4s_3fh53i&adjust_creative=449961440785&key=UT81AK9JAFEGJ4D69OVO6J673E&adjust_tracker_limit=1000000000&gclid=EAIaIQobChMI1M3R7LWk8wIVF-XICh0QBQdEEAAYASAAEgLh__D_BwE&mktdata=kw%3Ddecolar%26c%3D449961440785%26cc%3DBR%26mt%3De%26n%3Dg%26p%3D%26ap%3D%26d%3Dc%26dm%3D%26targetid%3Dkwd-436903102%26campaignid%3D1624198513%26adgroupid%3D65462576847%26ExperimentId%3D%26locationid%3D1001773%26accountid%3D8498672718%26pr%3DG%26adjust_adgroup%3D65462576847%26adjust_campaign%3D1624198513%26adjust_t%3Desobv7_ffxd4s_3fh53i%26adjust_creative%3D449961440785%26key%3DUT81AK9JAFEGJ4D69OVO6J673E%26adjust_tracker_limit%3D1000000000%26gclid%3DEAIaIQobChMI1M3R7LWk8wIVF-XICh0QBQdEEAAYASAAEgLh__D_BwE%26id%3D20210929144425130105408688692440%26trackeame_user_id%3D128F5A984DB716293818845668f57d8aa-4b31-45c0-b4f7-a483170b827639451431">Passagens</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Melhores Destinos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#foz">Foz do Iguaçu</a></li>
+                  <li><a class="dropdown-item" href="#praia">Praia do Forte</a></li>
+                  <li><a class="dropdown-item" href="#sp">São Paulo</a></li>
+                  <li><a class="dropdown-item" href="#rj">Rio de Janeiro</a></li>
+                  <li><a class="dropdown-item" href="#ams">Amsterdam</a></li>
+                  <li><a class="dropdown-item" href="#scl">Santiago</a></li>
+                </ul>
+              </li>
+
+              </li>
+            </ul>
+
+            <form class="d-flex">
+             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#login">Login</button>
+  <div class="modal fade" id="login" tabindex="-1" aria-labelledby="login" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="login">Acesse sua conta:</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <fieldset>     
+                <div>
+                    <label for="email"><strong>E-mail:</strong></label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="seuemail@email.com"
+                      required
+                    />
+                  </div>
+                  
+                  <div>
+                  <label for="password"><strong>Senha:</strong></label>
+                  <input
+                    type="password"
+                    id="password"
+                    name="password"
+                    placeholder="Digite sua senha aqui..."
+                    required
+                  />
+                </div>
+
+                <div>
+                  <a href="">Esqueceu sua senha?</a>
+                </div>
+        
+                
+            </fieldset>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          <button type="button" class="btn btn-primary">Enviar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+
+        <div class="frontpage shadow-lg p-3 mb-5 rounded" id=mainCarousel>
+               
+        <h1><strong>Melhores destinos</strong></h1>
+        <p>Confira nossa seleção com os melhores detinos para sua viagem!</p>
+      </div>
+     
+      </main>  
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-sm-12 col-lg-12 col-xl-12">
+
+            <div class="card card-custom1" id="praia">
+                <img src="https://assets.tivolihotels.com/image/upload/q_auto,f_auto,c_limit,w_1378/media/minor/tivoli/images/hotels/tepf/overview/topimage1920x1000/tivoli_ecoresort_praia_do_forte_bahia_pool_3_1920x1000.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Praia do Forte</h5>
+                  <p class="card-text">A Praia do Forte é uma praia situada no município de Mata de São João, no estado da Bahia, no Brasil. Dista cerca de 80 quilômetros da capital do estado, Salvador.</p>
+                  <a href="praiadoforte.html" class="btn btn-primary">Saiba mais</a>
+                </div>
+              </div>
+         
+          </div>
+
+          <div class="col-md-4 col-sm-12">
+
+            <div class="card card-custom" id="foz">
+                <img src="https://www.vounajanela.com/wp-content/uploads/2020/10/foz-1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Foz do Iguaçu</h5>
+                  <p class="card-text">Foz do Iguaçu, cidade no estado brasileiro do Paraná, é a principal base para visitar as famosas Cataratas do Iguaçu, uma das maiores cachoeiras do mundo.</p>
+                  <a href="foz.html" class="btn btn-primary">Saiba mais</a>
+                </div>
+              </div>
+         
+          </div>
+
+          <div class="col-md-4 col-sm-12">
+
+            <div class="card card-custom" id="sp">
+                <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">São Paulo</h5>
+                  <p class="card-text">São Paulo está entre as cidades mais populosas do mundo, com diversas instituições culturais e uma rica tradição arquitetônica.</p>
+                  <a href="saopaulo.html" class="btn btn-primary">Saiba mais</a>
+                </div>
+              </div>
+         
+          </div>
+
+          <div class="col-md-4 col-sm-12">
+
+            <div class="card card-custom" id="scl">
+                <img src="https://www.vounajanela.com/wp-content/uploads/2020/05/santiago.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Santiago</h5>
+                  <p class="card-text">Santiago de Chile, tem mais de 6,5 milhões de habitantes. A cidade é grande e tem sistema de metrô eficiente e pontos turísticos variados.</p>
+                  <a href="santiago.html" class="btn btn-primary">Saiba mais</a>
+                </div>
+              </div>
+          
+          </div>
+
+          <div class="col-md-4 col-sm-12">
+
+            <div class="card card-custom card-custom2" id="ams">
+                <img src="https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-amsterda-capa2019-03.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Amsterdam</h5>
+                  <p class="card-text">Capital da Holanda, conhecida por seu patrimônio artístico, um elaborado sistema de canais e casas estreitas, legados da era dourada do século XVII. O bairro de museus abriga o Museu Van Gogh, o Rijksmuseum, com obras de Rembrandt e Vermeer.</p>
+                  <a href="amsterdam.html" class="btn btn-primary">Saiba mais</a>
+                </div>
+              </div>
+         
+          </div>
+
+          
+          <div class="col-md-4 col-sm-12">
+            
+            <div class="card card-custom card-custom2" id="rj">
+                <img src="https://rederiohoteis.com/wp-content/uploads/2020/03/2020-04-dd-outono-no-rio-de-janeiro.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Rio de Janeiro</h5>
+                  <p class="card-text">O Rio de Janeiro é uma grande cidade brasileira à beira-mar, famosa pelas praias de Copacabana e Ipanema, pela estátua de 38 metros de altura do Cristo Redentor e pelo Pão de Açúcar, um pico de granito com teleféricos até seu cume.</p>
+                  <a href="riodejaneiro.html" class="btn btn-primary">Saiba mais</a>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+
+<section>
+
+  <div class="frontpage">
+               
+    <h1><strong>Obrigada por sua visita!</strong></h1>
+  </div>
+
+</section>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  </body>
+</html>
