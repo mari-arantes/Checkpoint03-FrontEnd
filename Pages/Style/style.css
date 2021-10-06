@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+
+  margin: 0;
+  padding: 0;
+}
+
+html{
+
+    scroll-behavior: smooth;
+}
+
+body{
+  background-color: rgba(184, 211, 202, 0.548);
+}
+
+nav img{
+    width: 60px;
+}
+
+form button:hover{
+    transform: scale(1.2);
+}
+
+  main{
+    background-image: url('https://www.melhoresdestinos.com.br/wp-content/uploads/2019/02/passagens-aereas-foz-do-iguacu-capa2019-01.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 99vw;
+    height: calc(100vh - 76px);
+    background-attachment: fixed;
+  }
+
+  .frontpage {
+    position: relative;
+    color: white;
+    top: 40%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+  .card-custom{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .card-custom2{
+    margin-bottom: 0px;
+  }
+
+  .card-custom:hover{
+    border: 3px solid rgba(0, 183, 255, 0.623);
+  }
+
+  .card-custom1:hover{
+    border: 3px solid rgba(0, 183, 255, 0.623);
+  }
+
+  section{
+
+      background-image: url('https://lalarebelo.com/wp-content/uploads/2017/08/piscinas-praia-do-forte-tivoli-01.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 99vw;
+      height: 100vh;
+      background-attachment: fixed;
+  }
